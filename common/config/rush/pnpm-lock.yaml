@@ -1,0 +1,21 @@
+dependencies:
+  '@rush-temp/package-a': 'file:projects/package-a.tgz'
+  '@types/lodash': 4.14.123
+lockfileVersion: 5
+packages:
+  /@types/lodash/4.14.123:
+    dev: false
+    resolution:
+      integrity: sha512-pQvPkc4Nltyx7G1Ww45OjVqUsJP4UsZm+GWJpigXgkikZqJgRm4c48g027o6tdgubWHwFRF15iFd+Y4Pmqv6+Q==
+  'file:projects/package-a.tgz':
+    dependencies:
+      '@types/lodash': 4.14.123
+    dev: false
+    name: '@rush-temp/package-a'
+    resolution:
+      integrity: sha512-JjAj5/Pq90GPLPF8Qu+7v6xrXpxixkdLLM0jshYpGnIAVtvO8CO21SalfQx3cvMOALe8Q9RZo6Zhdg8UYLFV5g==
+      tarball: 'file:projects/package-a.tgz'
+    version: 0.0.0
+specifiers:
+  '@rush-temp/package-a': 'file:./projects/package-a.tgz'
+  '@types/lodash': ^4.14.123
